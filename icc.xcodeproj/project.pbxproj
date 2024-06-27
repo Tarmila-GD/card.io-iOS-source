@@ -2592,7 +2592,6 @@
 			baseConfigurationReference = A50A54BF1BE2FEEC00B669FB /* CardIO_Framework_Release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
-				"EXCLUDED_ARCHS[sdk=*]" = arm64;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Release;
@@ -2620,7 +2619,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A50A54B51BE2F7A800B669FB /* icc_Release.xcconfig */;
 			buildSettings = {
-				"EXCLUDED_ARCHS[sdk=*]" = arm64;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Release;
